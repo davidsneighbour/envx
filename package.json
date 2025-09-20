@@ -32,6 +32,6 @@
     "node": ">=18.17"
   },
   "devDependencies": {
-    "@types/node": "22.7.4"
+    "@types/node": "24.5.2"
   }
 }
