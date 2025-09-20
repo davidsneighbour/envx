@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/envx",
-  "version": "0.1.0",
-  "description": "Cross-runtime environment variable helper (Node.js, Deno, Bun). ESM-only, no deps.",
+  "version": "0.0.1",
+  "description": "Cross-runtime environment variable helper (Node.js, Deno, Bun). ESM-only, no deps (yet)",
   "type": "module",
   "license": "MIT",
   "author": "Patrick Kollitsch (David's Neighbour)",
