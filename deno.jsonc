@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "test": "deno test --allow-env --allow-read --allow-write"
+  },
+  "test": {
+    // Only include the Deno-specific test file
+    "include": ["deno.envx.test.ts"]
+  }
+}
