@@ -1,0 +1,37 @@
+{
+  "name": "@davidsneighbour/envx",
+  "version": "0.1.0",
+  "description": "Cross-runtime environment variable helper (Node.js, Deno, Bun). ESM-only, no deps.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Patrick Kollitsch (David's Neighbour)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidsneighbour/envx.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/envx.d.ts",
+      "import": "./dist/envx.js"
+    }
+  },
+  "types": "dist/envx.d.ts",
+  "files": ["dist/"],
+  "bin": {
+    "envx": "dist/bin/envx.mjs"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "node --test --test-reporter=spec \"test/**/*.js\"",
+    "test:watch": "node --test --watch \"test/**/*.js\"",
+    "prepare": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.4"
+  }
+}
