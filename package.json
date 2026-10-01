@@ -11,7 +11,7 @@
   "devDependencies": {
     "@cspell/dict-en-gb": "5.0.30",
     "@types/node": "26.2.0",
-    "cspell": "10.0.1",
+    "cspell": "10.3.5",
     "typescript": "7.0.2"
   },
   "scripts": {
